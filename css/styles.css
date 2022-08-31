@@ -299,6 +299,11 @@ margin-left: 30px;
 
 /* portfolio.html */
 /* filter */
+
+.button-nav {
+    margin-bottom: 34px;
+}
+
 .filter-nav .button {
     cursor: pointer;
     color: var(--title-text-color);
@@ -307,6 +312,11 @@ margin-left: 30px;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    margin-left: 8px;
+}
+
+.button-end {
+    margin-bottom: 0;
 }
 
 .filter-nav .button:hover,
@@ -320,19 +330,22 @@ margin-left: 30px;
     text-decoration: none;
 }
 
-.works .title {
+.works-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    margin-top: 20px;
 }
 
-.works .text {
+.works-text {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    margin-bottom: 20px;
 }
 
 
