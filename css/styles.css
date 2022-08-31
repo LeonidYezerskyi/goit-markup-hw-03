@@ -1,0 +1,240 @@
+/* index.htm */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hero-text-color: #FFFFFF;
+    --acent-color: #2196F3;
+    --filter-background-color: #F5F4FA;
+}
+
+/* колір основного тексту #212121 */
+/* вторинний колір тексту #757575 */
+/* акцент - синій #2196F3 */
+/* основний колір фону білий #FFFFFF*/
+/* рамка контейнера 1px solid #EEEEEE  */
+/* білий з прозорістю rgba(255, 255, 255, 0.6) */
+
+/* body */
+.page {
+    background-color:var(--hero-text-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif, Raleway, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo-link {
+    color: var(--acent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--acent-color);
+}
+
+.site-nav .link.current {
+    color: var(--acent-color);
+}
+
+.contact-nav a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color: var(--acent-color);
+}
+
+/* main */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* button */
+.hero .button {
+    cursor: pointer;
+    color: var(--hero-text-color);
+    background-color: var(--acent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* benefits */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.benefit-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.benefit-list .text {
+    color: var(--primary-text-color);
+    line-height: 1.71;
+}
+
+/* team */
+.members {
+    background-color: var(--filter-background-color)
+}
+.team .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* footer */
+.contacts {
+    background-color: #2F303A;
+}
+
+.logo-link {
+    color: var(--acent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+   }
+
+.logo-footer {
+    color: var(--hero-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    }
+
+/* address */
+.coordinates .location {
+    color: var(--hero-text-color);
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.coordinates .title {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.coordinates .location:hover,
+.coordinates .location:focus {
+    color: var(--acent-color);
+}
+
+.coordinates .title:hover,
+.coordinates .title:focus {
+    color: var(--acent-color);
+}
+
+/* portfolio.html */
+/* filter */
+.filter-nav .button {
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--filter-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.filter-nav .button:hover,
+.filter-nav .button:focus {
+    color: var(--hero-text-color);
+    background-color: var(--acent-color);
+}
+
+/* Examples */
+.works .link {
+    text-decoration: none;
+}
+
+.works .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+/* колір основного тексту #212121 */
+/* вторинний колір тексту #757575 */
+/* акцент - синій #2196F3 */
+/* основний колір фону білий #FFFFFF*/
+/* рамка контейнера 1px solid #EEEEEE  */
+/* білий з прозорістю rgba(255, 255, 255, 0.6) */
