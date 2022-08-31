@@ -15,6 +15,21 @@
 /* білий з прозорістю rgba(255, 255, 255, 0.6) */
 
 /* body */
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 .page {
     background-color:var(--hero-text-color);
     color: var(--primary-text-color);
