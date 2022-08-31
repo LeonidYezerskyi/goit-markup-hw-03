@@ -15,7 +15,6 @@
 /* білий з прозорістю rgba(255, 255, 255, 0.6) */
 
 /* body */
-
 ul {
    list-style: none;
    padding: 0;
@@ -38,10 +37,37 @@ p {
     letter-spacing: 0.03em;
 }
 
+.container {
+    max-width: 1240px;
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .list {
     list-style: none;
 }
 
+/* header */
 /* logo */
 .logo-link {
     color: var(--acent-color);
@@ -50,6 +76,8 @@ p {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-header {
@@ -58,15 +86,28 @@ p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
 }
 
 /* site-nav */
+
+.site-nav, .contact-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.link:not(:last-child) {
+margin-left: 50px;
 }
 
 .site-nav .link:hover,
@@ -91,9 +132,19 @@ p {
     color: var(--acent-color);
 }
 
+.header-email {
+    margin-right: 344px;
+}
+
 /* main */
+.hero-content {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 
 .hero-title {
@@ -101,9 +152,9 @@ p {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 /* button */
@@ -115,9 +166,6 @@ p {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
@@ -130,12 +178,17 @@ p {
     text-align: center;
 }
 
+.benefit-description:not(:last-child) {
+margin-left: 30px;
+}
+
 .benefit-list .title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .benefit-list .text {
