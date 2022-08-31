@@ -196,10 +196,32 @@ margin-left: 30px;
     line-height: 1.71;
 }
 
+/* Services */
+.services {
+    margin-bottom: 50px;
+}
+
+.services-img {
+    margin-left: 30px;
+}
+
 /* team */
 .members {
     background-color: var(--filter-background-color)
 }
+
+.member:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.member-name {
+    margin-bottom: 10px;
+}
+
+.member-position {
+    margin-bottom: 30px;
+}
+
 .team .title {
     color: var(--title-text-color);
     font-weight: 500;
