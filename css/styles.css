@@ -371,7 +371,11 @@ margin-left: 30px;
 /* filter */
 
 .button-nav {
-    margin-bottom: 34px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 .filter-nav .button {
@@ -381,12 +385,6 @@ margin-left: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
-    margin-left: 8px;
-}
-
-.button-end {
-    margin-bottom: 0;
 }
 
 .filter-nav .button:hover,
@@ -395,9 +393,28 @@ margin-left: 30px;
     background-color: var(--acent-color);
 }
 
+.button {
+    border: transparent;
+    padding: 6px 22px;
+}
+
 /* Examples */
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+}
+
 .works .link {
     text-decoration: none;
+}
+
+.content-border {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: transparent;
 }
 
 .works-title {
@@ -407,7 +424,7 @@ margin-left: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .works-text {
