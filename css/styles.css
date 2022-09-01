@@ -38,9 +38,9 @@ p {
 }
 
 .container {
-    max-width: 1240px;
-    padding-left: 215px;
-    padding-right: 215px;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -76,12 +76,15 @@ p {
  
  .site-nav {
     display: flex;
-    margin-left: 93px;
+    margin-left: auto;
     gap: 50px;
  }
 
  .contact-nav {
     display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: auto;
  }
 
 /* logo */
@@ -108,9 +111,13 @@ p {
 
 /* site-nav */
 
-.site-nav, .contact-nav {
+.link, .header-email, .contact-phone {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.site-nav {
+    margin-left: 93px;
 }
 
 .site-nav .link {
@@ -148,9 +155,12 @@ margin-left: 50px;
 }
 
 .header-email {
-    margin-right: 344px;
+    margin-right: 50px;
 }
 
+.header-container {
+    display: flex;
+}
 /* main */
 .hero {
     background-color: #2F303A;
@@ -173,7 +183,9 @@ margin-left: 50px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     margin-bottom: 30px;
+    
 }
 
 /* button */
@@ -186,9 +198,17 @@ margin-left: 50px;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+
 }
 
-/* benefits */
+.benefit-item {
+    width: 270px;
+}
+
+.services-main {
+    padding-top: 0;
+}
 
 .benefit-list {
     display: flex;
@@ -229,23 +249,25 @@ margin-left: 30px;
     max-width: 100%;
     height: auto;
 }
+
 .services {
     margin-bottom: 50px;
     align-items: center;
 }
-
-.services-img {
-    margin-left: 30px;
-}
-
 .services-container {
     display: flex;
     gap: 30px;
+    margin-bottom: 50px;
+    align-items: center;
 }
 
 /* team */
 .members {
-    background-color: var(--filter-background-color)
+    background-color: var(--filter-background-color);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .member {
@@ -286,7 +308,7 @@ margin-left: 30px;
 }
 
 /* footer */
-.contacts {
+.footer {
     background-color: #2F303A;
     height: 252px;
     width: 1600px;
