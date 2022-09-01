@@ -32,9 +32,12 @@ p {
 .page {
     background-color:var(--hero-text-color);
     color: var(--primary-text-color);
+    width: 1600px;
     font-family: Roboto, sans-serif, Raleway, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -160,12 +163,15 @@ margin-left: 50px;
 
 .header-container {
     display: flex;
+    }
+
+.header {
+    border-bottom: 1px solid #ECECEC;
 }
 /* main */
 .hero {
     background-color: #2F303A;
     height: 600px;
-    max-width: 1600px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -264,7 +270,6 @@ margin-left: 30px;
 /* team */
 .members {
     background-color: var(--filter-background-color);
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     
@@ -311,7 +316,6 @@ margin-left: 30px;
 .footer {
     background-color: #2F303A;
     height: 252px;
-    width: 1600px;
     padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -434,11 +438,3 @@ margin-left: 30px;
     line-height: 1.88;
     margin-bottom: 20px;
 }
-
-
-/* колір основного тексту #212121 */
-/* вторинний колір тексту #757575 */
-/* акцент - синій #2196F3 */
-/* основний колір фону білий #FFFFFF*/
-/* рамка контейнера 1px solid #EEEEEE  */
-/* білий з прозорістю rgba(255, 255, 255, 0.6) */
