@@ -68,6 +68,22 @@ p {
 }
 
 /* header */
+
+.header-nav {
+        display: flex;
+        align-items: center;
+}
+ 
+ .site-nav {
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+ }
+
+ .contact-nav {
+    display: flex;
+ }
+
 /* logo */
 .logo-link {
     color: var(--acent-color);
@@ -88,7 +104,6 @@ p {
     line-height: 1.19;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-right: 93px;
 }
 
 /* site-nav */
@@ -170,6 +185,12 @@ margin-left: 50px;
 }
 
 /* benefits */
+
+.benefit-list {
+    display: flex;
+    gap: 30px;
+}
+
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -197,12 +218,24 @@ margin-left: 30px;
 }
 
 /* Services */
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .services {
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .services-img {
     margin-left: 30px;
+}
+
+.services-container {
+    display: flex;
+    gap: 30px;
 }
 
 /* team */
@@ -210,11 +243,21 @@ margin-left: 30px;
     background-color: var(--filter-background-color)
 }
 
+.member {
+    align-content: space-between;
+}
+
+.team {
+    display: flex;
+    gap: 30px;
+}
+
 .member:not(:last-child) {
-    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .member-name {
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
