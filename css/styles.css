@@ -32,7 +32,6 @@ p {
 .page {
     background-color:var(--hero-text-color);
     color: var(--primary-text-color);
-    width: 1600px;
     font-family: Roboto, sans-serif, Raleway, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -157,10 +156,6 @@ margin-left: 50px;
     color: var(--acent-color);
 }
 
-.header-email {
-    margin-right: 50px;
-}
-
 .header-container {
     display: flex;
     }
@@ -177,7 +172,7 @@ margin-left: 50px;
     margin-right: auto;
 }
 
-.hero-content {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -227,7 +222,7 @@ margin-left: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .benefit-description:not(:last-child) {
@@ -263,7 +258,6 @@ margin-left: 30px;
 .services-container {
     display: flex;
     gap: 30px;
-    margin-bottom: 50px;
     align-items: center;
 }
 
@@ -272,20 +266,17 @@ margin-left: 30px;
     background-color: var(--filter-background-color);
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .member {
     align-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team {
     display: flex;
     gap: 30px;
-}
-
-.member:not(:last-child) {
-    margin-left: 30px;
 }
 
 .member-name {
@@ -315,8 +306,8 @@ margin-left: 30px;
 /* footer */
 .footer {
     background-color: #2F303A;
-    height: 252px;
     padding-top: 60px;
+    padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -342,7 +333,7 @@ margin-left: 30px;
     margin-top: 20px;
 }
 
-.coordinates .location {
+.location {
     color: var(--hero-text-color);
     font-style: normal;
     line-height: 1.71;
@@ -355,6 +346,10 @@ margin-left: 30px;
     font-style: normal;
     line-height: 1.71;
     text-decoration: none;
+}
+
+.address-title:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .address-title:not(:last-child) {
@@ -378,7 +373,7 @@ margin-left: 30px;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -400,6 +395,7 @@ margin-left: 30px;
 .button {
     border: transparent;
     padding: 6px 22px;
+    border-radius: 4px;
 }
 
 /* Examples */
@@ -436,5 +432,4 @@ margin-left: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    margin-bottom: 20px;
 }
